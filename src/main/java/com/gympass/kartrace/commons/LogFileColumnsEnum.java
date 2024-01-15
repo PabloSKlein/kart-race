@@ -1,4 +1,4 @@
-package com.gympass.kartrace.domain;
+package com.gympass.kartrace.commons;
 
 public enum LogFileColumnsEnum {
 
