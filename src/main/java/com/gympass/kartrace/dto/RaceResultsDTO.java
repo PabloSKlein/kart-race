@@ -1,8 +1,8 @@
 package com.gympass.kartrace.dto;
 
 public record RaceResultsDTO(int classification, String pilotCode, String pilotName, int completedLaps,
-                             Double totalRaceTime) {
-    public RaceResultsDTO(String pilotCode, String pilotName, int completedLaps, Double totalRaceTime) {
+                             Float totalRaceTime) {
+    public RaceResultsDTO(String pilotCode, String pilotName, int completedLaps, Float totalRaceTime) {
         this(0, pilotCode, pilotName, completedLaps, totalRaceTime);
     }
 
